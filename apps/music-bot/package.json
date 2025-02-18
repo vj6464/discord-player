@@ -1,0 +1,27 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "Test music bot",
+  "type": "module",
+  "scripts": {
+    "build": "commandkit build",
+    "dev": "commandkit dev",
+    "start": "commandkit start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Androz2091/discord-player.git"
+  },
+  "author": "twilight <hello@twlite.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Androz2091/discord-player/issues"
+  },
+  "homepage": "https://github.com/Androz2091/discord-player#readme",
+  "dependencies": {
+    "@discord-player/extractor": "workspace:^",
+    "commandkit": "^0.1.10",
+    "discord-player": "workspace:^",
+    "discord.js": "^14.17.3"
+  }
+}
